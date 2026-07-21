@@ -77,19 +77,21 @@ The project includes:
 
 ### Distribution of Math Scores
 
-![Histogram](images/math_distribution.png)
+<p align="center">
+  <img src="images/Distribution%20of%20Math%20Scores.png" width="700">
+</p>
 
----
+### Math Score by Gender
 
-### Math Scores by Gender
-
-![Boxplot](images/math_gender_boxplot.png)
-
----
+<p align="center">
+  <img src="images/Math%20Score%20by%20Gender.png" width="700">
+</p>
 
 ### Reading vs Writing Scores
 
-![Scatter Plot](images/reading_writing_scatter.png)
+<p align="center">
+  <img src="images/Reading%20vs%20Writing%20Scores.png" width="700">
+</p>
 
 ---
 
