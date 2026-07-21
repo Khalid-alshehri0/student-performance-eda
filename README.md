@@ -1,71 +1,150 @@
-# Student Performance EDA
+# 🎓 Student Performance Exploratory Data Analysis (EDA)
 
-This repository contains an Exploratory Data Analysis (EDA) project on the "Students Performance" dataset (from Kaggle). The analysis was done using Python and Google Colab and includes data cleaning, descriptive statistics, and visualizations to explore relationships between students' demographic attributes and their exam scores.
+## 📌 Project Overview
 
-## Project structure
+This project explores the **Students Performance in Exams** dataset using Python to identify patterns, trends, and relationships that influence students' academic performance.
 
-- Exploratory_Data_Analysis_(EDA)_on_Student_Performance_Dataset.ipynb  - Main Colab notebook with the EDA
-- StudentsPerformance.csv - Dataset used in the analysis
-- README.md - This file
+The analysis focuses on descriptive statistics and data visualization to better understand student achievement across mathematics, reading, and writing.
 
-## Dataset
+---
 
-- Source: Kaggle (Students Performance in Exams)
-- File: StudentsPerformance.csv
+## 🎯 Objectives
 
-Columns used:
-- gender
-- race/ethnicity
-- parental level of education
-- lunch
-- test preparation course
-- math score
-- reading score
-- writing score
+- Analyze the distribution of students' math scores.
+- Compare academic performance between male and female students.
+- Explore the relationship between reading and writing scores.
+- Discover meaningful insights through exploratory data analysis (EDA).
 
-## What this project does
+---
 
-- Load and clean the dataset (fix formatting issues and column names)
-- Provide summary statistics and check for missing values
-- Visualize distributions and relationships, e.g.:
-  - Distribution of math scores
-  - Math scores by gender
-  - Relationship between reading and writing scores
-- Draw simple insights about factors affecting student performance
+## 📂 Dataset
 
-## How to run
+- **Source:** Kaggle
+- **Dataset:** Students Performance in Exams
 
-Option 1 — Open in Google Colab (recommended):
-1. Open `Exploratory_Data_Analysis_(EDA)_on_Student_Performance_Dataset.ipynb` in Colab.
-2. Upload `StudentsPerformance.csv` to the Colab session (or mount Drive) if not already present.
-3. Run the notebook cells in order.
+The dataset contains student exam scores together with demographic and educational information, including:
 
-Option 2 — Run locally:
-1. Create a virtual environment and install dependencies:
-   pip install pandas numpy matplotlib seaborn
-2. Start Jupyter and open the notebook:
-   jupyter notebook
-3. Make sure `StudentsPerformance.csv` is in the notebook working directory and run the cells.
+- Gender
+- Race/Ethnicity
+- Parental Level of Education
+- Lunch Type
+- Test Preparation Course
+- Math Score
+- Reading Score
+- Writing Score
 
-## Requirements
+---
 
-- Python 3.8+
-- pandas
-- numpy
-- matplotlib
-- seaborn
+## 🛠️ Technologies Used
 
-## Key findings (brief)
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
-- Reading and writing scores are strongly correlated.
-- Female students tend to score higher in reading and writing in this dataset.
-- Test preparation completion is associated with slightly higher scores on average.
+---
 
-## Notes and suggestions
+## 📈 Data Cleaning
 
-- The notebook contains steps used to fix an initial CSV formatting issue where the header row and data were read into a single column.
-- You can expand the analysis by adding models, more demographic breakdowns, or interactive plots (Plotly / Altair).
+The dataset was prepared by:
 
-## License
+- Importing the CSV dataset
+- Fixing formatting issues
+- Splitting incorrectly imported columns
+- Renaming column names
+- Converting score columns to numeric data types
+- Checking for missing values
+- Verifying dataset quality
 
-This repository is provided for learning purposes. Feel free to reuse or adapt the notebook and code.
+---
+
+## 📊 Exploratory Data Analysis
+
+The project includes:
+
+- Descriptive statistics
+- Average score analysis
+- Gender comparison
+- Distribution analysis
+- Correlation analysis
+- Data visualization
+
+---
+
+## 📷 Visualizations
+
+### Distribution of Math Scores
+
+![Histogram](images/math_distribution.png)
+
+---
+
+### Math Scores by Gender
+
+![Boxplot](images/math_gender_boxplot.png)
+
+---
+
+### Reading vs Writing Scores
+
+![Scatter Plot](images/reading_writing_scatter.png)
+
+---
+
+## 🔍 Key Insights
+
+- Most math scores fall between **60–80**.
+- Male students achieved a slightly higher average math score.
+- Reading and writing scores show a strong positive correlation.
+- Reading performance is closely associated with writing performance.
+
+---
+
+## 📌 Conclusion
+
+The analysis reveals several important patterns in student performance.
+
+- Mathematics scores are centered around the average range.
+- Gender differences in mathematics are relatively small.
+- Reading and writing skills are strongly connected.
+- Exploratory Data Analysis provides valuable insights before building predictive models.
+
+---
+
+## 📁 Project Structure
+
+```
+student-performance-eda/
+│
+├── Student_Performance_EDA.ipynb
+├── StudentsPerformance.csv
+├── images/
+│   ├── math_distribution.png
+│   ├── math_gender_boxplot.png
+│   └── reading_writing_scatter.png
+└── README.md
+```
+
+---
+
+## 🚀 Future Improvements
+
+- Correlation Heatmap
+- Pair Plot
+- Feature Engineering
+- Predictive Machine Learning Models
+- Interactive Dashboard using Plotly
+
+---
+
+## 👨‍💻 Author
+
+**Khalid Al-Shehri**
+
+Management Information Systems Student
+
+King Faisal University
+
+Aspiring Data Analyst
